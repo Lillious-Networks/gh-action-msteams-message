@@ -35,6 +35,3 @@ with:
   message: 'Successfully built and released Product using version v.1.0.2'
   webhook: '${{ secrets.msteams_webhook }}'
 ```
-
-
-**Required** The name of the person to greet. Default `"World"`.
