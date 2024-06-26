@@ -27,7 +27,7 @@ The color of the message. Default `"#000000"`.
 ## Example usage
 
 ```yaml
-uses: actions/gh-action-msteams-message@v1.0.0
+uses: Lillious-Networks/gh-action-msteams-message@v1.0.3
 with:
   title: 'Build & Release'
   subtitle: 'Product Version: v1.0.2'
