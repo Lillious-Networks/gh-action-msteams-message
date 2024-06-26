@@ -1,0 +1,28 @@
+name: '✉️ Send Microsoft Teams Message'
+description: 'Sends a message to a Microsoft Teams channel'
+inputs:
+  title:
+    description: 'The title of the message'
+    required: true
+    type: 'string'
+  subtitle:
+    description: 'The subtitle of the message'
+    required: false
+    type: 'string'
+    default: ''
+  color:
+    description: 'The color of the message'
+    required: false
+    type: 'string'
+    default: '#000000'
+  message:
+    description: 'The message to send'
+    required: true
+    type: 'string'
+  webhook:
+    description: 'The webhook URL to send the message to'
+    required: true
+    type: 'string'
+runs:
+  using: 'node20'
+  main: 'main.js'
